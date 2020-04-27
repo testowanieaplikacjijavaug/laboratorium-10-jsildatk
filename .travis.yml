@@ -8,6 +8,7 @@ before_install:
   - chmod +x resources/chromedriver
   - chmod +x resources/operadriver
   - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
+  - install opera-stable
 sudo: true
 notifications:
   email: false
