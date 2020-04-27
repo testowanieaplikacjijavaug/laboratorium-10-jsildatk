@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: webdemo.seleniumDemo.GoogleTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.156 s <<< FAILURE! - in webdemo.seleniumDemo.GoogleTest
+testTitlePage  Time elapsed: 0.982 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<DuckDuckGo — Pr[ivacy, simplified].> but was:<DuckDuckGo — Pr[ywatnoœæ — jeszcze prostsza].>
+	at webdemo.seleniumDemo.GoogleTest.testTitlePage(GoogleTest.java:47)
+
