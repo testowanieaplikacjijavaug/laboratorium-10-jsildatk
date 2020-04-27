@@ -17,9 +17,9 @@ public class TestInfUg {
     
     @BeforeAll
     public static void setUpDriver() {
-        System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "resources/chromedriver");
         ChromeOptions chromeOptions = new ChromeOptions();
-//        chromeOptions.setHeadless(true);
+        chromeOptions.setHeadless(true);
         driver = new ChromeDriver(chromeOptions);
         // Implicity wait -> max czas na znalezienie elementu na stronie
         driver.manage()
