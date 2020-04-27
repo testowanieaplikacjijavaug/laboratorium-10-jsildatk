@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 
 import static org.junit.Assert.*;
 
-public class TestInfUg {
+public class InfUgEduTest {
     
     private static WebDriver driver;
     
